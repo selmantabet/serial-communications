@@ -1,0 +1,83 @@
+\usepackage[utf8]{inputenc}
+\usepackage{supertabular}
+\usepackage[T1]{fontenc}
+\usepackage{icomma}
+\usepackage{array} 
+\usepackage{color}
+\usepackage{amsmath,mathtools}
+\usepackage{amssymb,amsfonts}
+\usepackage{esint}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage[bottom]{footmisc}
+\usepackage{gensymb}
+\usepackage{tabulary}
+\usepackage{fancyhdr}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage[RPvoltages]{circuitikz}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage{parskip}
+\setlength{\parindent}{20pt}
+\setlength{\parskip}{15pt}
+\setlength\extrarowheight{2pt}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage[ampersand]{easylist}
+\usepackage{subfigure}
+\usepackage{hhline}
+\usepackage{datetime}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand\headrulewidth{1pt}
+%\usepackage{biblatex} %Imports biblatex package
+%\addbibresource{Bibliography.bib} %Import the bibliography file
+\usepackage{csquotes}
+\usepackage{calligra}
+\usepackage{physics}
+\usepackage{listings}
+\usepackage{xcolor}
+\advance\day by -2
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n} 
+\DeclareFontShape{T1}{calligra}{m}{n}{<->s*[2.2]callig15}{}
+\newcommand{\scripty}[1]{\ensuremath{\mathcalligra{#1}}}
+
+\fancyhead[L]{\textbf{Assignment 5}}
+\fancyhead[C]{}
+\fancyhead[R]{Selman Tabet - 724009589}
+\renewcommand\footrulewidth{1pt}
+\fancyfoot[C]{\textbf{Page \thepage/\pageref{LastPage}}}
+\fancyfoot[R]{\today}
